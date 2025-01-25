@@ -1,0 +1,40 @@
+﻿<Window x:Class="HW_System_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_System_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Name="StartButton" Content="Start" Grid.Column="0" 
+            Grid.Row="0"
+            Margin="30,11,556,19" Click="Start"/>
+        <ProgressBar Name="horse1" Grid.Row="1" Grid.Column="0"
+                 Height="40" Width="600"
+                 Margin="30,17,171,16" Foreground="#FFB01702"/>
+        <ProgressBar Name="horse2" Grid.Row="2" Grid.Column="0"
+         Height="40" Width="600"
+         Margin="30,17,171,16" Foreground="#FFDDF105"/>
+        <ProgressBar Name="horse3" Grid.Row="3" Grid.Column="0"
+         Height="40" Width="600"
+         Margin="30,17,171,16" Foreground="#FF07D116"/>
+        <ProgressBar Name="horse4" Grid.Row="4" Grid.Column="0"
+         Height="40" Width="600"
+         Margin="30,17,171,16" Foreground="#FF0746E2"/>
+        <ProgressBar Name="horse5" Grid.Row="5" Grid.Column="0"
+         Height="40" Width="600"
+         Margin="30,17,171,16" Foreground="#FF7205E6"/>
+    </Grid>
+</Window>
